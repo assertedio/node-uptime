@@ -1,0 +1,40 @@
+{
+  "scripts": {
+    "prepare": "npx mkdirp node_modules"
+  },
+  "dependencies": {
+    "ajv": "6.12.2",
+    "async": "3.2.0",
+    "axios": "0.19.2",
+    "bcrypt": "5.0.0",
+    "bluebird": "3.7.2",
+    "chai": "4.2.0",
+    "cookie": "0.4.1",
+    "crypto-js": "4.0.0",
+    "dotenv": "8.2.0",
+    "faker": "4.1.0",
+    "fs-extra": "^9.0.1",
+    "getenv": "1.0.0",
+    "got": "^11.3.0",
+    "http-status": "1.4.2",
+    "ip": "1.1.5",
+    "jsdom": "16.2.2",
+    "jsonwebtoken": "8.5.1",
+    "lodash": "4.17.15",
+    "luxon": "1.24.1",
+    "mocha": "8.0.1",
+    "moment": "^2.26.0",
+    "ms": "2.1.2",
+    "node-fetch": "2.6.0",
+    "qs": "6.9.4",
+    "ramda": "0.27.0",
+    "request": "2.88.2",
+    "request-promise": "4.2.5",
+    "sinon": "9.0.2",
+    "ssl-checker": "2.0.4",
+    "tar": "6.0.2",
+    "underscore": "1.10.2",
+    "uuid": "^8.1.0",
+    "validator": "^13.1.1"
+  }
+}
