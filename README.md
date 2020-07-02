@@ -1,8 +1,8 @@
-# example
+# node-uptime
 
-Example repo with a simple Node server and Asserted tests.
+Local example Node API uptime test with Asserted
 
-![asserted.io](https://raw.githubusercontent.com/assertedio/example/master/images/logo.png)
+![asserted.io](https://raw.githubusercontent.com/assertedio/node-uptime/master/images/logo.png)
 
 [Test in Prod](https://asserted.io)
 
@@ -10,10 +10,10 @@ Example repo with a simple Node server and Asserted tests.
 
 ```bash
 # Clone example
-git clone https://github.com/assertedio/example
+git clone https://github.com/assertedio/node-uptime
 
 # Enter directory and install
-cd example/
+cd node-uptime/
 npm install
 
 # Run asserted tests

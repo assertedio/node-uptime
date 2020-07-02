@@ -13,4 +13,4 @@ app.all('/echo', (req, res) => res.json({
   query: Object.keys(req.query).length > 0 ? req.query : null,
 }));
 
-app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`));
+app.listen(port, () => console.log(`node-uptime app listening at http://localhost:${port}`));
