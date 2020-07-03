@@ -11,6 +11,7 @@ app.use(bodyParser.json());
 
 app.get('/', (req, res) => res.send('Hello World!'));
 
+// Basic fake authentication
 app.use((req, res, next) => {
   const authToken = req.get('authorization');
   if (authToken !== 'super-secret-token') {
@@ -20,6 +21,7 @@ app.use((req, res, next) => {
   next();
 })
 
+// Users REST CRUD endpoints
 app.get('/users', async (req, res) => {
   res.json({ data: await users.list() });
 });
