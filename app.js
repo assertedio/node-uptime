@@ -11,6 +11,15 @@ app.use(bodyParser.json());
 
 app.get('/', (req, res) => res.send('Hello World!'));
 
+app.use((req, res, next) => {
+  const authToken = req.get('authorization');
+  if (authToken !== 'super-secret-token') {
+    res.status(401).json({ message: 'Unauthorized' });
+  }
+
+  next();
+})
+
 app.get('/users', async (req, res) => {
   res.json({ data: await users.list() });
 });

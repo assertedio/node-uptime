@@ -1,8 +1,15 @@
 const { expect } = require('chai');
 const got = require('got');
+const getenv = require('getenv');
+const path = require('path');
+
+require('dotenv').config({ path: path.join(__dirname, './.env') });
+
+const TOKEN = getenv('TOKEN');
 
 const client = got.extend({
-  prefixUrl: 'http://localhost:3000'
+  prefixUrl: 'http://localhost:3000',
+  headers: { authorization: TOKEN },
 });
 
 describe('node api tests', () => {
