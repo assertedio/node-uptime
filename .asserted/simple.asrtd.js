@@ -1,6 +1,5 @@
 const { expect } = require('chai');
 const got = require('got');
-const HTTP_STATUS = require('http-status');
 
 const client = got.extend({
   prefixUrl: 'http://localhost:3000'
