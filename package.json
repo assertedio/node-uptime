@@ -1,6 +1,6 @@
 {
   "name": "@asserted/node-uptime",
-  "description": "node-uptime repo with a simple Node server and Asserted tests",
+  "description": "Test Node API Uptime with Asserted",
   "version": "0.0.1",
   "author": "Eric Hacke",
   "bugs": {
@@ -18,15 +18,22 @@
   },
   "homepage": "https://github.com/assertedio/node-uptime#readme",
   "keywords": [
+    "api",
     "asserted",
-    "node-uptime",
-    "integration",
+    "nodejs",
+    "test",
+    "uptime",
     "monitoring",
-    "tests",
-    "uptime"
+    "health check",
+    "health",
+    "integration",
+    "integration testing",
+    "mocha",
+    "chai",
+    "example"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "main": "app.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/assertedio/node-uptime.git"
