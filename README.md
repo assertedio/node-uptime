@@ -6,6 +6,10 @@ Local example Node API uptime test with Asserted
 
 [Test in Prod](https://asserted.io)
 
+## Walkthough
+
+This example is referenced in a walkthrough about [Node API Health Checks and Uptime](https://asserted.io/posts/node-api-health-check-uptime)
+
 ## Try it out
 
 ```bash
@@ -24,7 +28,7 @@ npm run asrtd:test
 In order to create your own tests in your own repo, you should [create an account](https://app.asserted.io) and follow the quick onboarding.
 
 ## Learn more
-- [docs](https://docs.asserted.io)
+- [Documentation](https://docs.asserted.io)
 - [asrtd CLI tool](https://github.com/assertedio/asrtd)
 
 ## Notes
