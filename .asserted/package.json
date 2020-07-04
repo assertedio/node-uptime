@@ -4,7 +4,8 @@
   },
   "files": [
     ".env",
-    "**/*.js"
+    "**/*.js",
+    "!node_modules"
   ],
   "dependencies": {
     "ajv": "6.12.2",
