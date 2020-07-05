@@ -21,7 +21,7 @@ cd node-uptime/
 npm install
 
 # Run asserted tests
-npm run asrtd:test
+npm run test:asrtd
 ```
 
 ## Add to your own project
